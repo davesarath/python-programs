@@ -4,7 +4,7 @@ import socket
 from tkinter import *
 from tkinter import scrolledtext
 
-# it should recieve msg and insert to scrolltext
+# it should receive msg and insert to scrolltext
 def recieve_msg():
     while(True):
         txt=c.recv(1024).decode()
