@@ -14,7 +14,7 @@ a.grid(row=1,column=1)
 bb2=Button(q,text="send",command=lambda : submit(),width=5)
 bb2.grid(row=2,column=2)
 
-bb3 = Button(q, text="Recieve", command=lambda: recv(), width=5)
+bb3 = Button(q, text="Receive", command=lambda: recv(), width=5)
 bb3.grid(row=3, column=0)
 
 
