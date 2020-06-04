@@ -1,7 +1,4 @@
 
-import requests
-
-
 class Employee:
     """A sample Employee class"""
 
@@ -11,8 +8,6 @@ class Employee:
         self.first = first
         self.last = last
         self.pay = pay
-
-    
 
  
     def email(self):
@@ -28,4 +23,4 @@ class Employee:
 
 if __name__ == "__main__":
     emp_1 = Employee('Corey', 'Schafer', 50000)
-    print(emp_1.email())
+    print(emp_1.fullname())

@@ -1,5 +1,4 @@
 import unittest
-from unittest.mock import patch
 from employee import Employee
 
 
@@ -41,7 +40,7 @@ class TestEmployee(unittest.TestCase):
         self.emp_2.first = 'Janes'
 
         self.assertEqual(self.emp_1.fullname(), 'John Schafer')
-        self.assertEqual(self.emp_2.fullname(), 'Jane Smith')
+        self.assertEqual(self.emp_2.fullname(), 'Janes Smith')
 
     def test_apply_raise(self):
         print('test_apply_raise')
