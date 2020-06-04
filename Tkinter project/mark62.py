@@ -9,7 +9,7 @@ bb1=Button(q,text="connect",command=lambda : crt(),width=5)
 bb1.grid(row=0,column=0)
 
 
-bb3 = Button(q, text="Recieve", command=lambda: recv(), width=5)
+bb3 = Button(q, text="Receive", command=lambda: recv(), width=5)
 bb3.grid(row=1, column=0)
 
 
