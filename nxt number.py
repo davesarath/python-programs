@@ -5,10 +5,16 @@ from sklearn.linear_model import LinearRegression
 data =\
 [
 [0, 1],
-[1, 8],
-[2, 13],
-[3, 16],
-[4, 20],
+[1, 2],
+[2, 4],
+[3, 6],
+[4, 8],
+[5,10],
+[6,12],
+[7,14],
+[8,16],
+[9,18],
+[10,20]
 ]
 
 X = np.array(data)[:,0].reshape(-1,1)
@@ -18,7 +24,7 @@ print(X)
 print("y=")
 print(y)
 
-to_predict_x= [5,6,7]
+to_predict_x= [11,12,13]
 to_predict_x= np.array(to_predict_x).reshape(-1,1)
 
 regsr=LinearRegression()
